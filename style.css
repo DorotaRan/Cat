@@ -1,0 +1,57 @@
+.container-all {
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .div-big {
+    position: absolute;
+    align-items: centre;
+    justify-content: centre;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    border: 10px solid black;
+  }
+  
+  .div-big-smaller {  
+    z-index: 1;
+    position: absolute;
+    align-items: centre;
+    justify-content: centre;
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    border: 10px solid black;
+    background-image: url(http://yamataka01.web.fc2.com/02/1327.jpg);
+    background-size: 270px 270px;
+    margin: 10px;
+    background-position: center;
+  }
+  
+  .div-small {
+    z-index: 2;
+    position: relative;
+    top: 250px;
+    left: 230px; 
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 10px solid black;
+    background-color: white;
+  }
+  
+  .div-small-smaller {  
+    position: absolute;
+    align-items: centre;
+    justify-content: centre;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 10px solid black;
+    background-color: black;
+    background-size: 30px 30px;
+    margin: 10px;
+    background-position: center;
+  }
